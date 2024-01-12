@@ -6,10 +6,10 @@
     <title>BioBeat - 3D Bioprinting Italia</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f8f8;
         }
 
         header {
@@ -19,27 +19,69 @@
             text-align: center;
         }
 
-        nav {
+        .hero-section {
             background-color: #ff5252; /* Rosso */
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
             color: #fff;
             text-align: center;
-            padding: 14px 16px;
+            padding: 100px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
             text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: ##00bcd4; /* Tonalità più chiara di rosso al passaggio del mouse */
             color: #fff;
+            background-color: #00bcd4; /* Turchese */
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
 
-        section {
+        .cta-button:hover {
+            background-color: #0097a7; /* Turchese più scuro al passaggio del mouse */
+        }
+
+        .services {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .service {
+            width: 30%;
+            margin: 20px;
             padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
         }
 
         footer {
@@ -55,37 +97,40 @@
 </head>
 <body>
 
+    <header>
+        <h1>BioBeat - 3D Bioprinting Italia</h1>
     </header>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">Chi siamo</a>
-        <a href="#services">Servizi</a>
-        <a href="#contact">Contatti</a>
-    </nav>
+    <div class="hero-section">
+        <h1>Innovazione che cambia la vita</h1>
+        <p>Benvenuti nella nostra azienda di 3D Bioprinting</p>
+        <a href="#" class="cta-button">Scopri di più</a>
+    </div>
 
-    <section id="home">
-        <h2>Benvenuti su BioBeat</h2>
-        <p>Esplorate il futuro della biotecnologia con i nostri avanzati servizi di stampa 3D biologica.</p>
-    </section>
-
-    <section id="about">
-        <h2>Chi Siamo</h2>
-        <p>Scoprite la nostra missione e il nostro impegno nel promuovere la tecnologia di bioprinting.</p>
-    </section>
-
-    <section id="services">
+    <section class="services">
         <h2>I Nostri Servizi</h2>
-        <p>Scoprite la gamma di servizi di stampa 3D biologica che offriamo a ricercatori, scienziati e professionisti della salute.</p>
+        <div class="service">
+            <h3>Servizio 1</h3>
+            <p>Descrizione del servizio 1.</p>
+        </div>
+        <div class="service">
+            <h3>Servizio 2</h3>
+            <p>Descrizione del servizio 2.</p>
+        </div>
+        <div class="service">
+            <h3>Servizio 3</h3>
+            <p>Descrizione del servizio 3.</p>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contattaci</h2>
-        <p>Entrate in contatto con noi per informazioni, collaborazioni o per saperne di più sul nostro lavoro nel campo del 3D bioprinting.</p>
+    <section class="gallery">
+        <img src="image1.jpg" alt="Immagine 1">
+        <img src="image2.jpg" alt="Immagine 2">
+        <img src="image3.jpg" alt="Immagine 3">
     </section>
 
     <footer>
-        <p>&copy; 2024 BioBeat - 3D Bioprinting Italia. Tutti i diritti riservati.</p>
+        <p>&copy; 2024 BioBeat - Tutti i diritti riservati.</p>
     </footer>
 
 </body>
