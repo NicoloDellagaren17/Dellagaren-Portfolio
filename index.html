@@ -1,103 +1,49 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BioBeat - 3D Bioprinting Italia</title>
+    <title>3D Bioprinting</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #ff5252, #00bcd4);
-            color: #fff;
+            background-color: #f4f4f4;
         }
 
         header {
-            background: #333;
-            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
             text-align: center;
         }
 
         nav {
-            background: #ff7675;
-            padding: 10px;
-            text-align: center;
+            background-color: #4CAF50;
+            overflow: hidden;
         }
 
         nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        .hero-section {
-            background: linear-gradient(to right, #00bcd4, #ff5252);
+            float: left;
+            display: block;
+            color: #f2f2f2;
             text-align: center;
-            padding: 100px 20px;
-            color: #fff;
-        }
-
-        .hero-section h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-
-        .hero-section p {
-            font-size: 1.5em;
-            margin-bottom: 40px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 1.2em;
+            padding: 14px 16px;
             text-decoration: none;
-            color: #fff;
-            background: #ff7675;
-            border-radius: 5px;
-            transition: background 0.3s ease;
         }
 
-        .cta-button:hover {
-            background: #ff5252;
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
         }
 
-        .services {
-            padding: 50px;
-            text-align: center;
-        }
-
-        .service {
-            width: 30%;
-            margin: 20px;
-            padding: 30px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .gallery {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-top: 30px;
-        }
-
-        .gallery img {
-            width: 30%;
-            margin: 10px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .gallery img:hover {
-            transform: scale(1.1);
+        section {
+            padding: 20px;
         }
 
         footer {
-            background: #333;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 1em;
@@ -110,46 +56,38 @@
 <body>
 
     <header>
-        <h1>BioBeat - 3D Bioprinting Italia</h1>
+        <h1>3D Bioprinting</h1>
     </header>
 
     <nav>
         <a href="#home">Home</a>
-        <a href="#about">Chi siamo</a>
-        <a href="#services">Servizi</a>
-        <a href="#contact">Contatti</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <div class="hero-section">
-        <h1>Innovazione che cambia la vita</h1>
-        <p>Benvenuti nella nostra azienda di 3D Bioprinting</p>
-        <a href="#" class="cta-button">Scopri di più</a>
-    </div>
-
-    <section class="services">
-        <h2>I Nostri Servizi</h2>
-        <div class="service">
-            <h3>Servizio 1</h3>
-            <p>Descrizione del servizio 1.</p>
-        </div>
-        <div class="service">
-            <h3>Servizio 2</h3>
-            <p>Descrizione del servizio 2.</p>
-        </div>
-        <div class="service">
-            <h3>Servizio 3</h3>
-            <p>Descrizione del servizio 3.</p>
-        </div>
+    <section id="home">
+        <h2>Welcome to our 3D Bioprinting Website</h2>
+        <p>Explore the future of biotechnology with our cutting-edge 3D bioprinting services.</p>
     </section>
 
-    <section class="gallery">
-        <img src="image1.jpg" alt="Immagine 1">
-        <img src="image2.jpg" alt="Immagine 2">
-        <img src="image3.jpg" alt="Immagine 3">
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our mission and commitment to advancing bioprinting technology.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Discover the range of 3D bioprinting services we offer to researchers, scientists, and healthcare professionals.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for inquiries, collaborations, or to learn more about our work in 3D bioprinting.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 BioBeat - 3D Bioprinting Italia. Tutti i diritti riservati.</p>
+        <p>&copy; 2024 3D Bioprinting. All rights reserved.</p>
     </footer>
 
 </body>
