@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="it">
+!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nico's Company</title>
+    <title>3D Bioprinting</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,49 +11,83 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
         header {
             background-color: #333;
-            color: #FF0000;
-            text-align: center;
+            color: #fff;
             padding: 1em;
+            text-align: center;
         }
+
+        nav {
+            background-color: #4CAF50;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
         section {
-            max-width: 800px;
-            margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         footer {
             background-color: #333;
-            color: #FF0000;
+            color: #fff;
             text-align: center;
             padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Welcome to Nico's Company</h1>
+        <h1>3D Bioprinting</h1>
     </header>
 
-    <section>
-        <h2>Benvenuto nel club</h2>
-        <p>Nico's Company si dedica ad offrirti il miglior servizio disponibile.</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to our 3D Bioprinting Website</h2>
+        <p>Explore the future of biotechnology with our cutting-edge 3D bioprinting services.</p>
     </section>
 
-    <section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our mission and commitment to advancing bioprinting technology.</p>
+    </section>
+
+    <section id="services">
         <h2>Our Services</h2>
-        <ul>
-            <li>Product A</li>
-            <li>Service B</li>
-            <li>Custom Solutions</li>
-        </ul>
+        <p>Discover the range of 3D bioprinting services we offer to researchers, scientists, and healthcare professionals.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for inquiries, collaborations, or to learn more about our work in 3D bioprinting.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Nico's Company. All rights reserved.</p>
+        <p>&copy; 2024 3D Bioprinting. All rights reserved.</p>
     </footer>
 
 </body>
