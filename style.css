@@ -61,7 +61,7 @@ body {
 
 .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #00000;
     height: 100vh;
     display: flex;
     align-items: center;
