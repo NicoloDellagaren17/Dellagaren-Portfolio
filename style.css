@@ -60,6 +60,9 @@ body {
 }
 
 .hero {
+    background-image: url('immagini/'); /* Percorso dell'immagine di sfondo */
+    background-size: cover; /* Imposta la dimensione dell'immagine in modo che copra l'intera area */
+    background-position: center; /* Centra l'immagine di sfondo */
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: #00000;
     height: 100vh;
