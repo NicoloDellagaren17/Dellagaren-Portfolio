@@ -3,98 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BioBeat</title>
+    <title>Portfolio di Sviluppatori Web</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: "Gill Sans", sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #F4F4F4;
-        }
-
-        header {
-            background-color: #F4F4F4;
-            color: #DD1B38;
-            padding: 1em;
-            text-align: left;
-        }
-
-        nav {
-            background-color: #252850f1;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: #f4f4f4;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: #DD1B38;
-            color: black;
-        }
-
-        section {
-            padding: 20px; 
-        }
-
-        footer {
-            background-color: #30d5c8 ;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            width: 100%;
-        }
-    </style>
-
-<img style="width: 30%;
-%;" src="https://github.com/NicoloDellagaren17/Esame-Web-design/blob/main/logo%20biobeat.png?raw=true" alt="Logo BioBeat"  >
 </head>
 <body>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#cos'è">Cos'è </a>
-        <a href="#about">Chi siamo</a>
-        <a href="#services">Servizi</a>
-        <a href="#contact">Contatti</a>
-    </nav>
-    
-    <img src="https://github.com/NicoloDellagaren17/Sito-BioBeat/blob/main/experiment-biotechnology-with-chemistry-science.jpg?raw=true" style="max-width: 100%; height: auto; display: block; margin: 0 auto;""opacity: 0.6;">
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" <a href="#" class="logo">
+                    <img src="https://github.com/NicoloDellagaren17/Sito-BioBeat/blob/main/immagini%20/immagini/Logo%20bianco%20mio.png" alt="Logo di Graph(n)ico">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#about">Chi Sono</a></li>
+                    <li><a href="#services">Servizi</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-
-    <section id="home">
-        <h2>Benvenuto nel mondo della biostampa</h2>
-        <p>esplora il futuro della medicina attraverso la biotecnologia.</p>
-    </section>
-    
-    <section id="cos'è">
-        <h2>Un nuovo mondo</h2>
-        <p>modificare.</p>
-    </section>
-
-    <section id="Chi siamo">
-        <h2>Chi siamo</h2>
-        <p>Scopri di più riguardo alla nostra Mission e conosci i nostri specialisti.</p>
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Benvenuto nel mio portfolio</h1>
+            <p>Visualizza i miei lavori più recenti e scopri come posso aiutarti a realizzare il tuo prossimo progetto.</p>
+            <a href="#portfolio" class="btn">Visualizza Portfolio</a>
+        </div>
     </section>
 
-    <section id="servizi">
-        <h2>I nostri servizi</h2>
-        <p>Scopri la gamma di servizi di biostampa 3D che offriamo a ricercatori, scienziati e operatori sanitari.</p>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-description">
+                    <h2>Chi Sono</h2>
+                    <p>Qui potrai trovare una breve descrizione di me, le mie competenze e la mia esperienza nel campo dello sviluppo web.</p>
+                </div>
+                <div class="about-image">
+                    <img src="your-photo.jpg" alt="Tu" class="profile-image">
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contattaci</h2>
-        <p>Mettiti in contatto con noi per richieste, collaborazioni o per saperne di più sul nostro lavoro nella biostampa 3D.</p>
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Servizi</h2>
+            <div class="service">
+                <h3>Sviluppo Web</h3>
+                <p>Offro servizi di sviluppo web su misura, utilizzando le ultime tecnologie e le migliori pratiche.</p>
+            </div>
+            <div class="service">
+                <h3>Web Design</h3>
+                <p>Creo design moderni e intuitivi che si adattano perfettamente alle esigenze dei clienti.</p>
+            </div>
+            <div class="service">
+                <h3>SEO Ottimizzazione</h3>
+                <p>Implemento strategie SEO efficaci per migliorare la visibilità e il posizionamento dei siti web sui motori di ricerca.</p>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 3D Bioprinting. All rights reserved.</p>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Qui troverai una selezione dei miei progetti più recenti. Clicca su ogni progetto per saperne di più.</p>
+            <!-- Aggiungi qui i tuoi progetti -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contatti</h2>
+            <p>Se desideri collaborare con me o hai delle domande, non esitare a contattarmi.</p>
+            <p>Email: info@example.com</p>
+            <a href="#" class="btn">Invia un messaggio</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio di Sviluppatori Web</p>
+        </div>
     </footer>
 
 </body>
