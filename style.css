@@ -134,45 +134,58 @@ body {
 .portfolio .project {
     margin: 20px 0;
 }
-.slider {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
+areaslider{
+	margin: 0;
+	padding: 0;
+	margin: 0 10rem;
+	margin-top: 15px;
+	width: 85%;
 }
-
-.slides {
+.swiper{
+    height: 80vh;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	align-content: center;
+}
+.swiper-slide img{
+    max-height: 80vh;
+	max-width: 80%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+}
+.swiper{
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 300%;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
 }
-
-.slide {
-    width: 100%;
-    flex: 1 0 100%;
+.swiper-pagination-bullet {
+    background: var(--main-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 4px;
 }
-
-.slide img {
-    width: 100%;
-    display: block;
+.swiper-pagination-bullet-active {
+    background: var(--title-color);
 }
-
-input[type="radio"] {
-    display: none;
-}
-
-input#slide1:checked ~ .slides {
-    transform: translateX(0);
-}
-
-input#slide2:checked ~ .slides {
-    transform: translateX(-33.33%);
-}
-
-input#slide3:checked ~ .slides {
-    transform: translateX(-66.66%);
-}
+.swiper-button-next, 
+.swiper-button-prev {
 
 .navigation {
     position: absolute;
