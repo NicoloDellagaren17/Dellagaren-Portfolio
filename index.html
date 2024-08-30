@@ -15,9 +15,8 @@
     <title>Portfolio di Dellagaren Nicolò</title>
     <!-- Collegamento al file CSS esterno per lo stile -->
     <link rel="stylesheet" href="style.css">
-    <!--Link Swiper's CSS-->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
+    <title>Slider HTML.it</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
 
 <body>
     <!-- SEZIONE HEADER -->
@@ -88,28 +87,22 @@
             <h2>Portfolio</h2> <!-- Titolo della sezione -->
             <p>Qui troverai una selezione dei miei progetti più recenti...</p> <!-- Descrizione della sezione -->
             <!-- Area dello slider per visualizzare i progetti -->
-            <div class="areaslider">
-                <div class="swiper mySwiper"> <!-- Slider dei progetti -->
-                    <div class="swiper-wrapper"> <!-- Contenitore delle slide -->
-                        <!-- Ogni "swiper-slide" contiene un progetto -->
-                        <div class="swiper-slide"><img src="immagini/etichetta birra.png" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/Azzurro Bianco Annuncio Partita Calcio Femminile Poster.png" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/2d/haloposter.png" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/2d/ia.jpg" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/2d/stickergundam.png" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/2d/vino-fronte.png" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/2d/zplusposter.png" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/2d/beermuda.png" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="immagini/2d/starwars.png" loading="lazy"></div>
-                    </div>
-                    <!-- Pulsanti di navigazione dello slider -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <!-- Paginazione dello slider -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
+            <div class="slider-container">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-container">
+            <img src="1.jpg" class="slider-image" />
+            <img src="2.jpg" class="slider-image" />
+            <img src="3.jpg" class="slider-image" />
         </div>
+        <div class="button-container">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div>
+        
     </section>
 
     <!-- SEZIONE CONTATTI -->
