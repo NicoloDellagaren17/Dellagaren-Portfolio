@@ -1,244 +1,205 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box; /* Assicura che padding e bordi siano inclusi nelle dimensioni degli elementi */
+    margin: 0; /* Rimuove i margini predefiniti */
+    padding: 0; /* Rimuove i padding predefiniti */
 }
 
 body {
-    font-family: 'Apotek wide', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+    font-family: 'Apotek wide', sans-serif; /* Imposta il font principale del sito */
+    background-color: #f4f4f4; /* Colore di sfondo della pagina */
+    color: #333; /* Colore del testo */
+    line-height: 1.6; /* Spaziatura tra le righe del testo */
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1200px; /* Larghezza massima del contenitore */
+    margin: 0 auto; /* Centra il contenitore orizzontalmente */
+    padding: 0 20px; /* Aggiunge padding laterale al contenitore */
 }
 
 .header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    background-color: #333; /* Colore di sfondo dell'intestazione */
+    color: #fff; /* Colore del testo dell'intestazione */
+    padding: 20px 0; /* Padding verticale dell'intestazione */
+    position: fixed; /* Fissa l'intestazione in cima alla pagina */
+    width: 100%; /* Larghezza dell'intestazione */
+    top: 0; /* Posiziona l'intestazione in cima alla pagina */
+    z-index: 1000; /* Assicura che l'intestazione sia sopra altri elementi */
 }
 
 .header .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* Dispone gli elementi della navbar in fila */
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    justify-content: space-between; /* Spazia gli elementi in modo che ci sia spazio tra loro */
 }
 
 .header .logo {
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #ffd700;
+    font-size: 24px; /* Dimensione del testo del logo */
+    font-weight: bold; /* Grassetto per il logo */
+    text-decoration: none; /* Rimuove la sottolineatura dai link */
+    color: #ffd700; /* Colore del testo del logo */
 }
 
 .header .nav-menu {
-    list-style: none;
-    display: flex;
+    list-style: none; /* Rimuove i punti elenco dalla lista */
+    display: flex; /* Dispone gli elementi della lista in fila */
 }
 
 .header .nav-menu li {
-    margin-right: 20px;
+    margin-right: 20px; /* Spaziatura tra gli elementi del menu */
 }
 
 .header .nav-menu li a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s ease;
+    text-decoration: none; /* Rimuove la sottolineatura dai link */
+    color: #fff; /* Colore dei link nel menu */
+    transition: color 0.3s ease; /* Aggiunge una transizione dolce al cambiamento di colore */
 }
 
 .header .nav-menu li a:hover {
-    color: #ffd700;
+    color: #ffd700; /* Colore dei link al passaggio del mouse */
 }
 
 .hero {
-    background-image:<img src="immagini/SFONDO.jpg"> /* Percorso dell'immagine di sfondo */
-    background-size: cover; /* Imposta la dimensione dell'immagine in modo che copra l'intera area */
+    background-image: url('immagini/SFONDO.jpg'); /* Immagine di sfondo dell'hero */
+    background-size: cover; /* Copre l'intera area dell'hero con l'immagine */
     background-position: center; /* Centra l'immagine di sfondo */
-    color: #00000;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 20px;
+    color: #00000; /* Colore del testo nella sezione hero */
+    height: 100vh; /* Altezza dell'hero pari all'altezza della finestra */
+    display: flex; /* Dispone gli elementi all'interno in modo flessibile */
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    justify-content: center; /* Allinea orizzontalmente gli elementi al centro */
+    text-align: center; /* Centra il testo */
+    padding: 0 20px; /* Aggiunge padding laterale */
 }
 
 .hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+    font-size: 48px; /* Dimensione del titolo */
+    margin-bottom: 20px; /* Spazio sotto il titolo */
+    text-transform: uppercase; /* Trasforma il testo in maiuscolo */
 }
 
 .hero p {
-    font-size: 24px;
-    margin-bottom: 30px;
+    font-size: 24px; /* Dimensione del paragrafo */
+    margin-bottom: 30px; /* Spazio sotto il paragrafo */
 }
 
 .btn {
-    display: inline-block;
-    background-color: #ffd700;
-    color: #333;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    display: inline-block; /* Visualizza il bottone come un elemento inline block */
+    background-color: #ffd700; /* Colore di sfondo del bottone */
+    color: #333; /* Colore del testo del bottone */
+    padding: 15px 30px; /* Padding interno del bottone */
+    text-decoration: none; /* Rimuove la sottolineatura dal bottone */
+    border-radius: 5px; /* Arrotonda gli angoli del bottone */
+    transition: background-color 0.3s ease; /* Aggiunge una transizione dolce al cambiamento di colore */
 }
 
 .btn:hover {
-    background-color: #ffcc00;
+    background-color: #ffcc00; /* Colore di sfondo del bottone al passaggio del mouse */
 }
 
 .about,
 .services,
 .portfolio,
 .contact {
-    padding: 100px 0;
-    text-align: center;
+    padding: 100px 0; /* Spaziatura verticale per ogni sezione */
+    text-align: center; /* Allinea il testo al centro */
 }
 
 .about .about-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: flex; /* Dispone gli elementi in fila flessibile */
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+    justify-content: space-between; /* Spazia gli elementi tra loro */
+    flex-wrap: wrap; /* Permette agli elementi di andare a capo se necessario */
 }
 
 .about .about-description,
 .about .about-image {
-    flex: 1;
-    margin: 10px;
+    flex: 1; /* Assegna uno spazio uguale a ciascun elemento */
+    margin: 10px; /* Spaziatura intorno agli elementi */
 }
 
 .about .profile-image {
-    max-width: 100%;
-    border-radius: 10px;
+    max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
+    border-radius: 10px; /* Arrotonda gli angoli dell'immagine */
 }
 
 .services .service {
-    background-color: #fff;
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff; /* Colore di sfondo dei servizi */
+    padding: 20px; /* Padding interno del contenitore */
+    margin: 10px 0; /* Spaziatura verticale tra i contenitori */
+    border-radius: 10px; /* Arrotonda gli angoli del contenitore */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Aggiunge un'ombra leggera per dare profondità */
 }
 
 .portfolio .project {
-    margin: 20px 0;
+    margin: 20px 0; /* Spaziatura verticale tra i progetti */
 }
-areaslider{
-	margin: 0;
-	padding: 0;
-	margin: 0 10rem;
-	margin-top: 15px;
-	width: 85%;
+
+.areaslider {
+    margin: 0; /* Rimuove margini esterni */
+    padding: 0; /* Rimuove padding interno */
+    margin: 0 10rem; /* Aggiunge margini laterali */
+    margin-top: 15px; /* Aggiunge margine superiore */
+    width: 85%; /* Larghezza del contenitore dello slider */
 }
-.swiper{
-    height: 80vh;
+
+.swiper {
+    height: 80vh; /* Altezza dello slider */
 }
-.swiper-slide{
-    text-align: center;
-    font-size: 18px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	align-content: center;
+
+.swiper-slide {
+    text-align: center; /* Centra il testo nelle slide */
+    font-size: 18px; /* Dimensione del testo */
+    display: flex; /* Dispone gli elementi in modo flessibile */
+    justify-content: center; /* Centra orizzontalmente gli elementi */
+    align-items: center; /* Centra verticalmente gli elementi */
 }
-.swiper-slide img{
-    max-height: 80vh;
-	max-width: 80%;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	align-content: center;
+
+.swiper-slide img {
+    max-height: 80vh; /* Altezza massima delle immagini */
+    max-width: 80%; /* Larghezza massima delle immagini */
+    justify-content: center; /* Centra orizzontalmente le immagini */
+    align-items: center; /* Centra verticalmente le immagini */
+    text-align: center; /* Centra il testo */
 }
-.swiper{
-    margin-left: auto;
-    margin-right: auto;
+
+.swiper {
+    margin-left: auto; /* Centra lo slider automaticamente */
+    margin-right: auto; /* Centra lo slider automaticamente */
 }
+
 .swiper-pagination {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
+    position: absolute; /* Posiziona la paginazione in modo assoluto */
+    bottom: 10px; /* Posiziona la paginazione in basso */
+    left: 50%; /* Centra orizzontalmente la paginazione */
+    transform: translateX(-50%); /* Allinea esattamente al centro */
+    display: flex; /* Dispone gli elementi in fila */
+    justify-content: center; /* Centra orizzontalmente gli elementi */
+    align-items: center; /* Centra verticalmente gli elementi */
+    z-index: 10; /* Assicura che la paginazione sia sopra altri elementi */
 }
+
 .swiper-pagination-bullet {
-    background: var(--main-color);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 4px;
+    background: var(--main-color); /* Colore dei bullet della paginazione */
+    width: 10px; /* Larghezza dei bullet */
+    height: 10px; /* Altezza dei bullet */
+    border-radius: 50%; /* Arrotonda i bullet */
+    margin: 0 4px; /* Spaziatura tra i bullet */
 }
+
 .swiper-pagination-bullet-active {
-    background: var(--title-color);
+    background: var(--title-color); /* Colore dei bullet attivi */
 }
+
 .swiper-button-next, 
 .swiper-button-prev {
+    /* Aggiungi eventuali stili per i pulsanti di navigazione se necessario */
+}
 
 .navigation {
-    position: absolute;
-    width: 100%;
-    bottom: 10px;
-    display: flex;
-    justify-content: center;
-}
+    position: absolute; /* Posizione assoluta */
+    width: 100%; /* Larghezza del contenitore di navigazione */
+    bottom: 10px; /* Posiziona in basso */
+    display: flex; /* Dispone gli elementi in fila */
+    justify-content: center; /* Centra orizzontal
 
-.nav {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.3s;
-}
-
-.nav:hover {
-    background-color: #ffd700;
-}
-.contact .contact-info {
-    margin: 20px 0;
-}
-
-..footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.footer .social-icons {
-    font-size: 36px;
-    cursor: pointer;
-}
-
-.fa-facebook:hover,
-.fa-instagram:hover,
-.fa-twitter:hover,
-.fa-linkedin:hover,
-.fa-twitch:hover {
-    color: #008000;
-}
-
-.fab {
-    color: #000000;
-}
-
-/* Se intendi stilizzare un elemento con ID #footer */
-#footer {
-    background-color: #808080;
-    text-align: center;
-}
