@@ -135,64 +135,44 @@ body {
     margin: 20px 0; /* Spaziatura verticale tra i progetti */
 }
 
-.areaslider {
-    margin: 0; /* Rimuove margini esterni */
-    padding: 0; /* Rimuove padding interno */
-    margin: 0 10rem; /* Aggiunge margini laterali */
-    margin-top: 15px; /* Aggiunge margine superiore */
-    width: 85%; /* Larghezza del contenitore dello slider */
+.slider-container
+{
+    width: 800px;
+    height: 400px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
 }
-
-.swiper {
-    height: 80vh; /* Altezza dello slider */
+.image-container
+{
+    width: 2400px;
+    background-color: red;
+    height: 400px;
+    clear: both;
+    position: relative;
+   
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+    
 }
-
-.swiper-slide {
-    text-align: center; /* Centra il testo nelle slide */
-    font-size: 18px; /* Dimensione del testo */
-    display: flex; /* Dispone gli elementi in modo flessibile */
-    justify-content: center; /* Centra orizzontalmente gli elementi */
-    align-items: center; /* Centra verticalmente gli elementi */
+.button-container
+{
+	position: relative;
+	top: -20px;
 }
-
-.swiper-slide img {
-    max-height: 80vh; /* Altezza massima delle immagini */
-    max-width: 80%; /* Larghezza massima delle immagini */
-    justify-content: center; /* Centra orizzontalmente le immagini */
-    align-items: center; /* Centra verticalmente le immagini */
-    text-align: center; /* Centra il testo */
+.slider-change
+{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background-color: brown;
 }
-
-.swiper {
-    margin-left: auto; /* Centra lo slider automaticamente */
-    margin-right: auto; /* Centra lo slider automaticamente */
-}
-
-.swiper-pagination {
-    position: absolute; /* Posiziona la paginazione in modo assoluto */
-    bottom: 10px; /* Posiziona la paginazione in basso */
-    left: 50%; /* Centra orizzontalmente la paginazione */
-    transform: translateX(-50%); /* Allinea esattamente al centro */
-    display: flex; /* Dispone gli elementi in fila */
-    justify-content: center; /* Centra orizzontalmente gli elementi */
-    align-items: center; /* Centra verticalmente gli elementi */
-    z-index: 10; /* Assicura che la paginazione sia sopra altri elementi */
-}
-
-.swiper-pagination-bullet {
-    background: var(--main-color); /* Colore dei bullet della paginazione */
-    width: 10px; /* Larghezza dei bullet */
-    height: 10px; /* Altezza dei bullet */
-    border-radius: 50%; /* Arrotonda i bullet */
-    margin: 0 4px; /* Spaziatura tra i bullet */
-}
-
-.swiper-pagination-bullet-active {
-    background: var(--title-color); /* Colore dei bullet attivi */
-}
-
-.swiper-button-next, 
-.swiper-button-prev {
     /* Aggiungi eventuali stili per i pulsanti di navigazione se necessario */
 }
 
