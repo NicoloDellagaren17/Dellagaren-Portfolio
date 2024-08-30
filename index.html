@@ -1,138 +1,150 @@
-<!DOCTYPE html> <!--Indica che è realizzato in HTML5-->
-<html lang="it"> <!--Indica la lingua testuale che è l'italiano-->
+<!DOCTYPE html> <!-- Indica che il documento è in HTML5 -->
+<html lang="it"> <!-- Specifica la lingua del documento come italiano -->
 <head>
-	<!--Il set di caratteri usato per la corretta visualizzazione del sito-->
+    <!-- Set di caratteri per una corretta visualizzazione del testo -->
     <meta charset="UTF-8"> 
-	<!--Impostazioni per la visualizzazione responsive-->
+    <!-- Impostazioni per la visualizzazione responsive su dispositivi mobili -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--Altre informazioni-->
-	<meta name="description" content="Portfolio Nicolò">
-		<meta name="keywords" content="portfolio grafico, graphic design, ">
-		<meta name="author" content="Dellagaren Nicolò">
-	<!--Nome della scheda-->
+    <!-- Descrizione del sito web, utile per i motori di ricerca -->
+    <meta name="description" content="Portfolio Nicolò">
+    <!-- Parole chiave per i motori di ricerca -->
+    <meta name="keywords" content="portfolio grafico, graphic design">
+    <!-- Indica l'autore del sito -->
+    <meta name="author" content="Dellagaren Nicolò">
+    <!-- Titolo della pagina che appare nella scheda del browser -->
     <title>Portfolio di Dellagaren Nicolò</title>
-	<!--Imposta l'icona della scheda-->
-		
-	<!--Collega il file CSS esterno-->
+    <!-- Collegamento al file CSS esterno per lo stile -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<!--SEZIONE HEADER-->
-        <header class="header">
-        <div class="container">
-            <nav class="navbar"
-                 <a href="">
-                    <img src="immagini/Logo mio bianco.png" height="50">
+    <!-- SEZIONE HEADER -->
+    <header class="header"> <!-- Inizio dell'intestazione del sito -->
+        <div class="container"> <!-- Contenitore centrato per limitare la larghezza -->
+            <nav class="navbar"> <!-- Barra di navigazione -->
+                <!-- Link al logo del sito -->
+                <a href="">
+                    <img src="immagini/Logo mio bianco.png" height="50"> <!-- Immagine del logo -->
                 </a>
+                <!-- Menu di navigazione -->
                 <ul class="nav-menu">
-                    <li><a href="#about">Chi Sono</a></li>
-                    <li><a href="#services">Servizi</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contatti</a></li>
+                    <li><a href="#about">Chi Sono</a></li> <!-- Link alla sezione "Chi Sono" -->
+                    <li><a href="#services">Servizi</a></li> <!-- Link alla sezione "Servizi" -->
+                    <li><a href="#portfolio">Portfolio</a></li> <!-- Link alla sezione "Portfolio" -->
+                    <li><a href="#contact">Contatti</a></li> <!-- Link alla sezione "Contatti" -->
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="hero" class="hero">
-        <div class="container">
-            <h1>Benvenuto nel mio portfolio</h1>
-            <p>Visualizza i miei lavori più recenti e scopri come posso aiutarti a realizzare il tuo prossimo progetto.
-
-.</p>
-            <a href="#portfolio" class="btn">Visualizza Portfolio</a>
+    <!-- SEZIONE HERO -->
+    <section id="hero" class="hero"> <!-- Sezione di apertura del sito, spesso con un'immagine di sfondo -->
+        <div class="container"> <!-- Contenitore per il contenuto del "hero" -->
+            <h1>Benvenuto nel mio portfolio</h1> <!-- Titolo principale -->
+            <p>Visualizza i miei lavori più recenti e scopri come posso aiutarti a realizzare il tuo prossimo progetto.</p>
+            <a href="#portfolio" class="btn">Visualizza Portfolio</a> <!-- Pulsante che porta alla sezione Portfolio -->
         </div>
     </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-description">
-                    <h2>Chi Sono</h2>
-                    <p>Ho studiato presso il Liceo Artistico Benedetto Alfieri, dove ho conseguito il diploma in Graphic Design. Durante il percorso liceale, ho sviluppato una solida base nelle arti visive e nelle tecniche di progettazione grafica. Attualmente, sto proseguendo gli studi presso l'Accademia di Belle Arti, approfondendo ulteriormente le  competenze artistiche e tecniche nel campo del design. Questo continuo percorso formativo riflette la mia dedizione e passione per il mondo delle arti e del design..</p>
+    <!-- SEZIONE CHI SONO -->
+    <section id="about" class="about"> <!-- Sezione "Chi Sono" con descrizione personale -->
+        <div class="container"> <!-- Contenitore centrato -->
+            <div class="about-content"> <!-- Contenuto della sezione -->
+                <div class="about-description"> <!-- Descrizione della sezione -->
+                    <h2>Chi Sono</h2> <!-- Titolo della sezione -->
+                    <p>Ho studiato presso il Liceo Artistico Benedetto Alfieri... competenze artistiche e tecniche nel campo del design.</p> <!-- Testo descrittivo -->
                 </div>
-                <div class="about-image">
-                    <img src="immagini/miafoto.png" height="450">
+                <div class="about-image"> <!-- Sezione immagine -->
+                    <img src="immagini/miafoto.png" height="450"> <!-- Immagine personale -->
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Servizi</h2>
+    <!-- SEZIONE SERVIZI -->
+    <section id="services" class="services"> <!-- Sezione che descrive i servizi offerti -->
+        <div class="container"> <!-- Contenitore per i servizi -->
+            <h2>Servizi</h2> <!-- Titolo della sezione -->
             <div class="service">
-                <h3>Sviluppo Web</h3>
-                <p>Offro servizi di sviluppo web su misura, utilizzando le ultime tecnologie e le migliori pratiche.</p>
+                <h3>Sviluppo Web</h3> <!-- Nome del servizio -->
+                <p>Offro servizi di sviluppo web su misura...</p> <!-- Descrizione del servizio -->
             </div>
             <div class="service">
-                <h3>Web Design</h3>
-                <p>Creo design moderni e intuitivi che si adattano perfettamente alle esigenze dei clienti.</p>
+                <h3>Web Design</h3> <!-- Nome del servizio -->
+                <p>Creo design moderni e intuitivi...</p> <!-- Descrizione del servizio -->
             </div>
             <div class="service">
-                <h3>SEO Ottimizzazione</h3>
-                <p>Implemento strategie SEO efficaci per migliorare la visibilità e il posizionamento dei siti web sui motori di ricerca.</p>
+                <h3>SEO Ottimizzazione</h3> <!-- Nome del servizio -->
+                <p>Implemento strategie SEO efficaci...</p> <!-- Descrizione del servizio -->
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <p>Qui troverai una selezione dei miei progetti più recenti. Clicca su ogni progetto per saperne di più.</p>
-     <div class="areaslider">
-				<div class="swiper mySwiper">
-					<!-- Additional required wrapper -->
-					<div class="swiper-wrapper">
-						<!-- Slides -->
-						<div class="swiper-slide"><img src="immagini/2d/sovrapposizione.png" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/etichetta.png" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/haloposter.png" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/ia.jpg" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/stickergundam.png" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/vino-fronte.png" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/zplusposter.png" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/beermuda.png" loading="lazy"></div>
-						<div class="swiper-slide"><img src="immagini/2d/starwars.png" loading="lazy"></div>
-					</div>
-					<!-- Navigation buttons -->
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
-					<!-- Pagination -->
-					<div class="swiper-pagination"></div>
-				</div>
-          
-    
+    <!-- SEZIONE PORTFOLIO -->
+    <section id="portfolio" class="portfolio"> <!-- Sezione che mostra i progetti realizzati -->
+        <div class="container"> <!-- Contenitore per i progetti -->
+            <h2>Portfolio</h2> <!-- Titolo della sezione -->
+            <p>Qui troverai una selezione dei miei progetti più recenti...</p> <!-- Descrizione della sezione -->
+            <!-- Area dello slider per visualizzare i progetti -->
+            <div class="areaslider">
+                <div class="swiper mySwiper"> <!-- Slider dei progetti -->
+                    <div class="swiper-wrapper"> <!-- Contenitore delle slide -->
+                        <!-- Ogni "swiper-slide" contiene un progetto -->
+                        <div class="swiper-slide"><img src="immagini/2d/sovrapposizione.png" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/etichetta.png" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/haloposter.png" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/ia.jpg" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/stickergundam.png" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/vino-fronte.png" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/zplusposter.png" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/beermuda.png" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="immagini/2d/starwars.png" loading="lazy"></div>
+                    </div>
+                    <!-- Pulsanti di navigazione dello slider -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Paginazione dello slider -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contatti</h2>
-            <p>Se desideri collaborare con me o hai delle domande, non esitare a contattarmi.</p>
-            <form action="process.php" method="POST">
-            <div class="form-group">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Messaggio:</label>
-                <textarea id="message" name="message" required></textarea>
-        
-    </section>
-<!--FOOTER-->
-    <footer class="footer">
-    <div class="container-fluid">
-        <div class="social-icons mt-4">
-            <a href="https://www.instagram.com/graphicnicod/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/nicol%C3%B2-dellagaren-42b52b2a9/?originalSubdomain=it/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <!-- SEZIONE CONTATTI -->
+    <section id="contact" class="contact"> <!-- Sezione per i contatti -->
+        <div class="container"> <!-- Contenitore della sezione contatti -->
+            <h2>Contatti</h2> <!-- Titolo della sezione -->
+            <p>Se desideri collaborare con me o hai delle domande...</p> <!-- Testo introduttivo -->
+            <!-- Form per l'invio dei contatti -->
+            <form action="process.php" method="POST"> <!-- Il form invia i dati al file "process.php" -->
+                <div class="form-group">
+                    <label for="name">Nome:</label> <!-- Etichetta per il campo nome -->
+                    <input type="text" id="name" name="name" required> <!-- Campo di input per il nome -->
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label> <!-- Etichetta per il campo email -->
+                    <input type="email" id="email" name="email" required> <!-- Campo di input per l'email -->
+                </div>
+                <div class="form-group">
+                    <label for="message">Messaggio:</label> <!-- Etichetta per il campo messaggio -->
+                    <textarea id="message" name="message" required></textarea> <!-- Area di testo per il messaggio -->
+                </div>
+            </form>
         </div>
-    </div>
-</footer>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer"> <!-- Sezione piè di pagina -->
+        <div class="container-fluid"> <!-- Contenitore del footer -->
+            <div class="social-icons mt-4"> <!-- Sezione delle icone social -->
+                <!-- Link ai social media -->
+                <a href="https://www.instagram.com/graphicnicod/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nicol%C3%B2-dellagaren-42b52b2a9/?originalSubdomain=it/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
+
 
