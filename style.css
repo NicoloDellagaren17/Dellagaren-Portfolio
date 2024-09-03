@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box; /* Assicura che padding e bordi siano inclusi nelle dimensioni degli elementi */
     margin: 0; /* Rimuove i margini predefiniti */
@@ -9,6 +10,8 @@ body {
     background-color: #f4f4f4; /* Colore di sfondo della pagina */
     color: #333; /* Colore del testo */
     line-height: 1.6; /* Spaziatura tra le righe del testo */
+    margin: 0; /* Rimuove il margine del body */
+    padding: 0; /* Rimuove il padding del body */
 }
 
 .container {
@@ -17,6 +20,7 @@ body {
     padding: 0 20px; /* Aggiunge padding laterale al contenitore */
 }
 
+/* Stili per l'header */
 .header {
     background-color: #333; /* Colore di sfondo dell'intestazione */
     color: #fff; /* Colore del testo dell'intestazione */
@@ -59,11 +63,12 @@ body {
     color: #ffd700; /* Colore dei link al passaggio del mouse */
 }
 
+/* Stili per la sezione hero */
 .hero {
     background-image: url('immagini/SFONDO.jpg'); /* Immagine di sfondo dell'hero */
     background-size: cover; /* Copre l'intera area dell'hero con l'immagine */
     background-position: center; /* Centra l'immagine di sfondo */
-    color: #ffff; /* Colore del testo nella sezione hero */
+    color: #fff; /* Colore del testo nella sezione hero */
     height: 100vh; /* Altezza dell'hero pari all'altezza della finestra */
     display: flex; /* Dispone gli elementi all'interno in modo flessibile */
     align-items: center; /* Allinea verticalmente gli elementi al centro */
@@ -133,12 +138,6 @@ body {
 
 .portfolio .project {
     margin: 20px 0; /* Spaziatura verticale tra i progetti */
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 .slider-container {
@@ -218,11 +217,19 @@ button:hover {
     background-color: #3498db;
 }
 
-
 .navigation {
     position: absolute; /* Posizione assoluta */
     width: 100%; /* Larghezza del contenitore di navigazione */
     bottom: 10px; /* Posiziona in basso */
     display: flex; /* Dispone gli elementi in fila */
-    justify-content: center; /* Centra orizzontal
+    justify-content: center; /* Centra orizzontalmente gli elementi */
+}
+
+/* Stili per il footer */
+.footer {
+    background-color: #333; /* Colore di sfondo del footer */
+    color: #fff; /* Colore del testo del footer */
+    padding: 20px 0; /* Padding verticale del footer */
+    text-align: center; /* Allinea il testo al centro */
+    position: relative; /*
 
