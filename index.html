@@ -15,30 +15,22 @@
     <title>Portfolio di Dellagaren Nicolò</title>
     <!-- Collegamento al file CSS esterno per lo stile -->
     <link rel="stylesheet" href="style.css">
-      <!-- Collegamento del file JS -->
+    <!-- Collegamento del file JS -->
     <script src="script.js" defer></script>
-    
-
+</head>
 <body>
     <!-- SEZIONE HEADER -->
-    <!-- Inizio dell'intestazione del sito -->
     <header class="header">
-        <!-- Contenitore centrato per limitare la larghezza -->
         <div class="container"> 
-             <!-- Barra di navigazione -->
+            <!-- Barra di navigazione -->
             <nav class="navbar"> 
                 <!-- Link al logo del sito -->
-                <a href=""><img src="immagini/Logo mio bianco.png" height="50"> <!-- Immagine del logo -->
-                </a>
+                <a href="#"><img src="immagini/Logo mio bianco.png" height="50" alt="Logo di Dellagaren Nicolò" /></a>
                 <!-- Menu di navigazione -->
                 <ul class="nav-menu">
-                    <!-- Link alla sezione "Chi Sono" -->
                     <li><a href="#about">Chi Sono</a></li> 
-                    <!-- Link alla sezione "Servizi" -->
                     <li><a href="#services">Servizi</a></li> 
-                    <!-- Link alla sezione "Portfolio" -->
                     <li><a href="#portfolio">Portfolio</a></li> 
-                    <!-- Link alla sezione "Contatti" -->
                     <li><a href="#contact">Contatti</a></li> 
                 </ul>
             </nav>
@@ -46,101 +38,100 @@
     </header>
 
     <!-- SEZIONE HERO -->
-    <!-- Sezione di apertura del sito -->
     <section id="hero" class="hero"> 
-        <div class="container"> <!-- Contenitore per il contenuto del "hero" -->
-             <!-- Titolo principale -->
+        <div class="container">
             <h1>Benvenuto nel mio portfolio</h1>
             <p>Visualizza i miei lavori più recenti e scopri come posso aiutarti a realizzare il tuo prossimo progetto.</p>
-            <!-- Pulsante che porta alla sezione Portfolio -->
             <a href="#portfolio" class="btn">Visualizza Portfolio</a> 
         </div>
     </section>
 
     <!-- SEZIONE CHI SONO -->
     <section id="about" class="about"> 
-        <div class="container"> <!-- Contenitore centrato -->
-            <div class="about-content"> <!-- Contenuto della sezione -->
-                <div class="about-description"> <!-- Descrizione della sezione -->
-                    <!-- Titolo della sezione -->
+        <div class="container">
+            <div class="about-content">
+                <div class="about-description">
                     <h2>Chi Sono</h2> 
                     <p>Ho studiato presso il Liceo Artistico Benedetto Alfieri... competenze artistiche e tecniche nel campo del design.</p> 
                 </div>
                 <div class="about-image">
-                    <img src="immagini/miafoto.png" height="450"> 
+                    <img src="immagini/miafoto.png" height="450" alt="Foto di Nicolò Dellagaren" /> 
                 </div>
             </div>
         </div>
     </section>
 
     <!-- SEZIONE SERVIZI -->
-    <section id="services" class="services"> <!-- Sezione che descrive i servizi offerti -->
-        <div class="container"> <!-- Contenitore per i servizi -->
-            <h2>Servizi</h2> <!-- Titolo della sezione -->
+    <section id="services" class="services"> 
+        <div class="container">
+            <h2>Servizi</h2>
             <div class="service">
-                <h3>Sviluppo Web</h3> <!-- Nome del servizio -->
-                <p>Offro servizi di sviluppo web su misura...</p> <!-- Descrizione del servizio -->
+                <h3>Sviluppo Web</h3> 
+                <p>Offro servizi di sviluppo web su misura...</p> 
             </div>
             <div class="service">
-                <h3>Web Design</h3> <!-- Nome del servizio -->
-                <p>Creo design moderni e intuitivi...</p> <!-- Descrizione del servizio -->
+                <h3>Web Design</h3> 
+                <p>Creo design moderni e intuitivi...</p> 
             </div>
             <div class="service">
-                <h3>SEO Ottimizzazione</h3> <!-- Nome del servizio -->
-                <p>Implemento strategie SEO efficaci...</p> <!-- Descrizione del servizio -->
+                <h3>SEO Ottimizzazione</h3> 
+                <p>Implemento strategie SEO efficaci...</p> 
             </div>
         </div>
     </section>
 
     <!-- SEZIONE PORTFOLIO -->
-    <section id="portfolio" class="portfolio"> <!-- Sezione che mostra i progetti realizzati -->
-        <div class="container"> <!-- Contenitore per i progetti -->
-            <h2>Portfolio</h2> <!-- Titolo della sezione -->
-            <p>Qui troverai una selezione dei miei progetti più recenti...</p> <!-- Descrizione della sezione -->
+    <section id="portfolio" class="portfolio"> 
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Qui troverai una selezione dei miei progetti più recenti...</p>
             <!-- Area dello slider per visualizzare i progetti -->
-         <div class="slider-container">
-     <div class="slider">
-          <div class="slide active"><img src="..." alt="Image 1"></div>
-          <div class="slide"><img src="..." alt="Image 2"></div>
-          <div class="slide"><img src="..." alt="Image 3"></div>
-          <!-- Puoi aggiungere altre immagini-->
-     </div>
-     <button class="prev" id="prevSlide">&#10094;</button>
-     <button class="next" id="nextSlide">&#10095;</button>
-     <div class="dot-container" id="dots-container"></div>
-</div>
-  </section>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active"><img src="..." alt="Image 1" /></div>
+                    <div class="slide"><img src="..." alt="Image 2" /></div>
+                    <div class="slide"><img src="..." alt="Image 3" /></div>
+                    <!-- Puoi aggiungere altre immagini -->
+                </div>
+                <button class="prev" id="prevSlide">&#10094;</button>
+                <button class="next" id="nextSlide">&#10095;</button>
+                <div class="dot-container" id="dots-container"></div>
+            </div>
+        </div>
+    </section>
 
     <!-- SEZIONE CONTATTI -->
-    <section id="contact" class="contact"> <!-- Sezione per i contatti -->
-        <div class="container"> <!-- Contenitore della sezione contatti -->
-            <h2>Contatti</h2> <!-- Titolo della sezione -->
-            <p>Se desideri collaborare con me o hai delle domande...</p> <!-- Testo introduttivo -->
+    <section id="contact" class="contact"> 
+        <div class="container">
+            <h2>Contatti</h2>
+            <p>Se desideri collaborare con me o hai delle domande...</p>
             <!-- Form per l'invio dei contatti -->
-            <form action="process.php" method="POST"> <!-- Il form invia i dati al file "process.php" -->
+            <form action="process.php" method="POST">
                 <div class="form-group">
-                    <label for="name">Nome:</label> <!-- Etichetta per il campo nome -->
-                    <input type="text" id="name" name="name" required> <!-- Campo di input per il nome -->
+                    <label for="name">Nome:</label> 
+                    <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Email:</label> <!-- Etichetta per il campo email -->
-                    <input type="email" id="email" name="email" required> <!-- Campo di input per l'email -->
+                    <label for="email">Email:</label> 
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="message">Messaggio:</label> <!-- Etichetta per il campo messaggio -->
-                    <textarea id="message" name="message" required></textarea> <!-- Area di testo per il messaggio -->
+                    <label for="message">Messaggio:</label> 
+                    <textarea id="message" name="message" required></textarea>
                 </div>
+                <!-- Pulsante di invio -->
+                <button type="submit">Invia</button>
             </form>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer"> <!-- Sezione piè di pagina -->
-        <div class="container-fluid"> <!-- Contenitore del footer -->
-            <div class="social-icons mt-4"> <!-- Sezione delle icone social -->
+    <footer class="footer"> 
+        <div class="container-fluid"> 
+            <div class="social-icons mt-4">
                 <!-- Link ai social media -->
-                <a href="https://www.instagram.com/graphicnicod/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/nicol%C3%B2-dellagaren-42b52b2a9/?originalSubdomain=it/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/graphicnicod/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nicol%C3%B2-dellagaren-42b52b2a9/?originalSubdomain=it/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
