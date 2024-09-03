@@ -217,9 +217,7 @@ button:hover {
 .dot.active {
     background-color: #3498db;
 }
-}
-    /* Aggiungi eventuali stili per i pulsanti di navigazione se necessario */
-}
+
 
 .navigation {
     position: absolute; /* Posizione assoluta */
