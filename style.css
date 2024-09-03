@@ -30,6 +30,10 @@ body {
     top: 0; /* Posiziona l'intestazione in cima alla pagina */
     z-index: 1000; /* Assicura che l'intestazione sia sopra altri elementi */
 }
+.header img {
+    height: 30px; /* Imposta l'altezza dell'immagine del logo */
+    width: auto; /* Mantiene le proporzioni corrette */
+}
 
 .header .navbar {
     display: flex; /* Dispone gli elementi della navbar in fila */
