@@ -227,6 +227,31 @@ button:hover {
     bottom: 10px; /* Posiziona in basso */
     display: flex; /* Dispone gli elementi in fila */
     justify-content: center; /* Centra orizzontalmente gli elementi */
+    .contact {
+    padding: 100px 0; /* Assicura che ci sia abbastanza spazio sopra e sotto la sezione */
+    text-align: center;
+    position: relative; /* Mantiene il contesto di posizionamento */
+}
+
+.contact .form-group {
+    margin-bottom: 20px; /* Aggiunge spazio tra i campi del form */
+}
+
+.contact button {
+    display: inline-block; /* Fa sì che il pulsante sia trattato come un blocco inline */
+    background-color: #ffd700; /* Colore di sfondo del pulsante */
+    color: #333; /* Colore del testo */
+    padding: 15px 30px; /* Padding interno */
+    border: none; /* Rimuove i bordi predefiniti */
+    border-radius: 5px; /* Arrotonda gli angoli del pulsante */
+    cursor: pointer; /* Cambia il cursore al passaggio sopra il pulsante */
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #ffcc00; /* Colore di sfondo al passaggio del mouse */
+}
+
 }
 
 /* Stili per il footer */
