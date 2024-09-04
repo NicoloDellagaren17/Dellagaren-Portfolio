@@ -243,5 +243,5 @@ button:hover {
 
 .footer .social-icons mt-4{
     color: #fff;
-    
+    z-index: 999;
 }
